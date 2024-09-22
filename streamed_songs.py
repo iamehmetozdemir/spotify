@@ -6,10 +6,10 @@ csv_file_path = 'streamed_spotify_songs.csv'
 df = pd.read_csv(csv_file_path,encoding='latin1')
 
 # Connect to SQL Server
-server = 'IAMEHMETOZDEMIR'
+server = 'SERVERNAME'
 database = 'Spotify'
 username = 'sa'
-password = '347263bW'
+password = 'PSWORD'
 driver = 'ODBC Driver 17 for SQL Server'
 
 connection_string = f'mssql+pyodbc://{username}:{password}@{server}/{database}?driver={driver}'
