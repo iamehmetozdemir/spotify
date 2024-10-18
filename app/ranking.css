@@ -1,0 +1,44 @@
+body{
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+#songList {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.song-card {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1000px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.song-card:hover {
+    transform: scale(1.05);
+}
+
+.song-title {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.streams {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
