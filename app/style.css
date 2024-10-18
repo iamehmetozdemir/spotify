@@ -1,0 +1,81 @@
+.top {
+    text-align: center; 
+    padding: 10px;
+    background-color: lightgray; 
+}
+
+.top a {
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 20px 10px ; 
+ 
+    color: black; 
+}
+
+.top a:not(:last-child)::after {
+    content: "|"; 
+    margin-left: 6px; 
+}
+
+.top a:hover {
+    text-decoration: underline; 
+}
+
+#footer{
+    margin-top: 340px; 
+    background-color: lightgray; 
+}
+/* Arama çubuğunu stillendirme */
+.search-bar {
+        
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 40dvw;                
+    padding: 2dvh;               
+    font-size: 16px;            
+    border: 2px solid #ccc;      
+    border-radius: 25px;         
+    outline: none;              
+    transition: border 0.3s ease; 
+    justify-content: center;
+}
+
+/* Arama çubuğu odakta iken */
+.search-bar:focus {
+    border-color: #007BFF;       
+}
+
+/* Butonu stillendirme */
+.search-button {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    padding: 2dvh 2dvw;          
+    font-size: 16px;             
+    background-color: #007BFF;   
+    color: white;                
+    border: none;                
+    border-radius: 25px;         
+    cursor: pointer;             
+    transition: background-color 0.3s ease; 
+    justify-content: center;
+}
+
+/* Butonun üzerine gelindiğinde */
+.search-button:hover {
+    background-color: #0056b3;   
+}
+.search{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 10px;                
+    margin-top: 50px;
+}
