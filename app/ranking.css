@@ -4,25 +4,26 @@ body{
     justify-content: center;
 }
 #songList {
-    width: 1200px;
+    width: 80dvw;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 1dvh;
+    padding: 1dvh;
     background-color: aliceblue;
 }
 
 .song-card {
     border: 2px solid #007bff;
     border-radius: 10px;
-    padding: 15px;
-    width: 1000px;
+    padding: 1dvh;
+    width: 70dvw;
     text-align: center;
     background-color: #f9f9f9;
     transition: transform 0.2s;
+    height: 6dvh;
 }
 
 .song-card:hover {
@@ -30,7 +31,7 @@ body{
 }
 
 .song-title {
-    font-size: 18px;
+    font-size: 3dvh;
     text-align: left;
     font-weight: bold;
     color: #007bff;
@@ -38,7 +39,7 @@ body{
 }
 
 .streams {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 1dvh;
+    font-size: 2dvh;
     color: #333;
 }
