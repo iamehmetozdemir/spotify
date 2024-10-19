@@ -1,13 +1,13 @@
 .top {
     text-align: center; 
-    padding: 10px;
+    padding: 2dvh;
     background-color: lightgray; 
 }
 
 .top a {
     display: inline-block; 
     text-decoration: none; 
-    font-size: 18px; 
+    font-size: 3dvh; 
     font-weight: bold; 
     margin: 20px 10px ; 
  
@@ -16,7 +16,7 @@
 
 .top a:not(:last-child)::after {
     content: "|"; 
-    margin-left: 6px; 
+    margin-left: 1dvw; 
 }
 
 .top a:hover {
@@ -24,14 +24,13 @@
 }
 
 #footer{
-    margin-top: 340px; 
+    margin-top: 32dvh; 
     background-color: lightgray; 
 }
 /* Arama çubuğunu stillendirme */
 .search-bar {
         
     margin: auto;
-    position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
@@ -53,7 +52,6 @@
 /* Butonu stillendirme */
 .search-button {
     margin: auto;
-    position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
