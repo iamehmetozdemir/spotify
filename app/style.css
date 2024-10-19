@@ -9,7 +9,7 @@
     text-decoration: none; 
     font-size: 3dvh; 
     font-weight: bold; 
-    margin: 20px 10px ; 
+    margin: 1dvw 1dvh ; 
  
     color: black; 
 }
@@ -76,4 +76,19 @@
     align-items: center;      
     gap: 10px;                
     margin-top: 50px;
+}
+.infos{
+    margin-bottom: 1dvh;
+    font-size: 3dvh;
+    text-align: left;
+}
+.name{
+    font-size: 4dvh;
+    font-weight: bold;
+}
+#spot{
+    font-size: 3dvh;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
 }
